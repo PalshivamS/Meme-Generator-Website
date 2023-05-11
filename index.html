@@ -1,0 +1,43 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random-Meme-Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Random Meme , Quotes and Jokes Generator</h1>
+
+    <div class="container">
+      <div class="main">
+        <img
+          src="https://i.pinimg.com/564x/93/4a/fe/934afe569986c00956e38586f3898d34.jpg"
+          alt="error"
+          id="memes"
+        />
+        <p id="txt-para">Click Following Buttons To See The Results.</p>
+      </div>
+    </div>
+
+    <div class="main-joke-container">
+      <div class="joke-container">jokes</div>
+    </div>
+
+    <div class="quotes_parent">
+      <div class="fm-quote"></div>
+      <div class="parent_absolute"><div id="author"></div></div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="nextmeme()" class="next">Next Meme</button>
+      <button onclick="nextquote()" class="next">Next Quote</button>
+      <button onclick="nextjoke()" class="next">Next Joke</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
